@@ -88,7 +88,6 @@ void create_record(){
     printf("Expiration date > ");
     scanf("%d", &ex_date);
     i_create(no, name, stock, ex_date);
-    printf("%d",i_count());
 }
 
 void read_record(){
